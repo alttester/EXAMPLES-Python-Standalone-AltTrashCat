@@ -1,4 +1,4 @@
-start "" "App\TrashCatMac\TrashCat.app"
+start "" "App\TrashCatMac\TrashCatTest.app"
 
 python3 TestsPython\\tests\\main_menu_page_test.py
 python3 TestsPython\\tests\\game_play_test.py
