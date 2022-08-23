@@ -6,7 +6,7 @@ run-standalone-python-tests-on-windows:
   rules:
     - when: always
   tags:
-    - standalone
+    - unity 
     - windows
   script:
     - sh start_tests_Windows.sh
@@ -21,7 +21,7 @@ run-standalone-python-tests-on-mac:
   rules:
     - when: always
   tags:
-    - standalone
+    - unity
     - mac
   script:
     - sh start_tests_Mac.sh
