@@ -9,6 +9,7 @@ run-standalone-python-tests-on-windows:
     - unity 
     - windows
   script:
+    - pip install -r requirements.txt
     - sh start_tests_Windows.sh
   artifacts:
     when: always
@@ -24,6 +25,7 @@ run-standalone-python-tests-on-mac:
     - unity
     - mac
   script:
+    - pip install -r requirements.txt
     - sh start_tests_Mac.sh
   artifacts:
     when: always
