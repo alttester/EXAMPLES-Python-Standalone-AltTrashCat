@@ -1,3 +1,4 @@
 virtualenv
 altunityrunner==1.7.0
 assertpy==0.14
+pytest
