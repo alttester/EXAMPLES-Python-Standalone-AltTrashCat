@@ -10,7 +10,7 @@ run-standalone-python-tests-on-windows:
     - windows
   script:
     - pip install -r requirements.txt
-    - dos2unix  ./start_tests_Windows.sh
+    - bash ./start_tests_Windows.sh
   artifacts:
     when: always
     expire_in: 10 days
