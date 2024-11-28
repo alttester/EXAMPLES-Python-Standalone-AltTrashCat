@@ -1,4 +1,4 @@
-AltTester-Driver==2.0.1
+AltTester-Driver==2.2.0
 pytest
 pytest-html
 assertpy==0.14
