@@ -13,3 +13,4 @@ allure-results-html/
 # simple pytest report artifacts
 output.json
 pytest_html_report.html
+archive/
