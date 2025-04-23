@@ -1,0 +1,11 @@
+.venv/
+*.log
+**/__pycache__/**
+.vscode/
+
+# app folder
+App/
+
+# allure report folders
+allure-report/
+allure-results-html/
