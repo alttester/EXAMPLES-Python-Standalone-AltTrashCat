@@ -1,0 +1,16 @@
+.venv/
+*.log
+**/__pycache__/**
+.vscode/
+
+# app folder
+App/
+
+# allure report folders
+allure-report/
+allure-results-html/
+
+# simple pytest report artifacts
+output.json
+pytest_html_report.html
+archive/
